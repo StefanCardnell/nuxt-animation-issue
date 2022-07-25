@@ -3,11 +3,11 @@
 </template>
 
 <script setup lang="ts">
-// definePageMeta({
-//     pageTransition: {
-//         name: "page",
-//         mode: "in-out",
-//     },
-// });
+definePageMeta({
+    pageTransition: {
+        name: "page",
+        mode: "in-out",
+    },
+});
 // uncomment for bad behaviour
 </script>
