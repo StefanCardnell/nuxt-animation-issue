@@ -1,0 +1,19 @@
+.page {
+    &-enter-active {
+        transition: all 3s ease-out;
+    }
+
+    &-leave-active {
+        transition: all 3s ease-out;
+    }
+
+    &-enter-from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    &-leave-to {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}
